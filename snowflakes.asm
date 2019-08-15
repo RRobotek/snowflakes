@@ -21,13 +21,7 @@ FDS_ATTR				= $0003 ; f_DrawSnowflake attributes parameter
 ; hero 
 FDH_X_COORDINATES		= $0004	; f_DrawHero x 		    	parameter
 FDH_Y_COORDINATES		= $0005 ; f_DrawHero y 		    	parameter
-FDH_ATTR				= $0006 ; f_DrawHero attributes		parameter
-
-; buffers aka additional registers
-BUFFER_A				= $0007	; buffer for various operations 
-BUFFER_B				= $0008	; buffer for various operations 
-BUFFER_C				= $0009	; buffer for various operations 
-BUFFER_D				= $000A	; buffer for various operations 
+FDH_ATTR				= $0006 ; f_DrawHero attributes		parameter				= $000A	; buffer for various operations 
 
 ; global counter
 GLOBAL_COUNTER			= $000B ; used as seed
